@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../angular-node/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-node"
+    }
+  },
+  "defaultProject": "angular-node",
+  "cli": {
+    "analytics": "381c9393-dde5-4e35-9495-b263cef85233"
+  }
 }
